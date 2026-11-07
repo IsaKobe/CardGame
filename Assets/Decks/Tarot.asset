@@ -31,7 +31,7 @@ MonoBehaviour:
       description: 
       onDraw: []
       onPlay:
-      - rid: 8842879594067394752
+      - rid: 1597316784031268948
       onDiscard: []
       onExhaust: []
     isStartCard: 1
@@ -49,10 +49,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 1597316784031268948
+      type: {class: Subtract, ns: , asm: Assembly-CSharp}
+      data: 
     - rid: 8842879594067394713
       type: {class: Add, ns: Assets.Scripts.Cards.CardActions, asm: Assembly-CSharp}
       data:
         number: 15
-    - rid: 8842879594067394752
-      type: {class: Subtract, ns: Assets.Scripts.Cards.CardActions, asm: Assembly-CSharp}
-      data: 
