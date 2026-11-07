@@ -20,7 +20,6 @@ namespace Assets.Scripts.UI
             Add(image = new Image());
             Add(content = new Label("Lorem ipsuma apsum dolur test 1223") { name = "Content", enableRichText = true });
             Add(value = new Label("#") { name = "Value"});
-
             SetCard(i, item, playCard);
         }
 
